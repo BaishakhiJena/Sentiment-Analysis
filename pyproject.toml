@@ -1,0 +1,11 @@
+[project]
+name = "sentiment-analysis"
+version = "0.1.0"
+description = "A simple sentiment analysis project using Multinomial Naive Bayes and the NLTK Movie Reviews dataset."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "nltk",
+    "pandas",
+    "scikit-learn",
+]
